@@ -23,10 +23,10 @@ const Navbar = () => {
               src={logo as unknown as string}
               alt="Logo"
             />
-            <span className="text-xl tracking-tight">Justice Reliance LLP</span>
+            <span className="text-xl tracking-tight">LEGAL EXCELENCIA</span>
           </div>
           <div className="flex justify-between items-center">
-            <ul className="hidden lg:flex ml-14 space-x-12">
+            <ul className="hidden lg:flex ml-14 space-x-12 text-lg">
               {navItems.map((item, index) => (
                 <li key={index} className="hover:text-slate-400">
                   <a href={item.href}>{item.label}</a>

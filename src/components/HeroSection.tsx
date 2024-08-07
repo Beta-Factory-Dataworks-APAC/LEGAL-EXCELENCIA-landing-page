@@ -8,10 +8,8 @@ import Image, { StaticImageData } from "next/image";
 const HeroSection = () => {
   return (
     <div className=" bg-blue-50 pt-10">
-      <div id="hero" className="flex flex-col items-center mt-6 lg:mt-10">
-        <p className="text-blue-500 items-center">
-          Galandis Dunstan Justice Reliance LLP
-        </p>
+      <div id="hero" className="flex flex-col items-center mt-6 lg:mt-10 gap-5">
+        <p className="text-blue-500 items-center">Legal Excelencia</p>
         <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
           A law firm built on
           <span className="bg-gradient-to-r from-pink-500 to-red-600 text-transparent bg-clip-text">

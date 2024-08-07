@@ -18,4 +18,4 @@ bun dev
 
 ## will need your own API key from mailgun
 
-![updrage](image-1.png)
+![upgrade](image-1.png)
