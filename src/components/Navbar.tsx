@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="sticky top-0 right-0 z-50 bg-blue-100 border-1 w-full p-6 flex flex-col justify-center items-center lg:hidden">
+          <div className="sticky top-0 right-0 z-50 border-1 w-full p-6 flex flex-col justify-center items-center lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4 hover:text-slate-400">

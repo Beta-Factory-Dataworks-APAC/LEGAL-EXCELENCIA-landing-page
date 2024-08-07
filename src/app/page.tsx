@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import ClientPage from "@/components/ClientPage";
 import Emailer from "@/components/Emailer";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -17,6 +18,7 @@ export default function Home() {
         <HeroSection />
         <About />
         <Services />
+        <ClientPage />
         <Team />
         <Testimonials />
         <Info />

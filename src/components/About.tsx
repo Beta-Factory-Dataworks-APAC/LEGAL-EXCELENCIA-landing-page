@@ -16,15 +16,20 @@ const About = () => {
           <div className="p-4">
             <h2 className="text-4xl font-bold">500+ trusting clients</h2>
             <p className="mt-4 text-xl text-slate-500">
-              For over 40 years, Galanis Dunstan Justice Reliance LLP has
-              provided the highest quality legal services.
+              For over a decade, we've been providing comprehensive legal
+              services across various practice areas, building a solid
+              reputation for excellence and reliability.
+              <br /> Strong track record demonstrates commitment to client
+              success.
             </p>
           </div>
           <div className="p-4">
             <h2 className="text-4xl font-bold">30+ lawyers and attorneys</h2>
             <p className="mt-4 text-xl text-slate-500">
-              We are the right choice if you are facing an issue that you cannot
-              solve alone.
+              Our team of legal experts is equipped with multi-lingual
+              capabilities and diverse expertise. Each attorney brings a wealth
+              of experience and specialized knowledge to address complex legal
+              challenges effectively
             </p>
           </div>
           <div className="p-4">
@@ -32,8 +37,9 @@ const About = () => {
               A reliable partner at a good price
             </h2>
             <p className="mt-4 text-xl text-slate-500">
-              Our experience allows us to approach each case with the right
-              resources.
+              We know legal costs matter. Our seasoned team provides tailored,
+              budget-friendly solutions. We'll meet your unique needs without
+              emptying your wallet.
             </p>
           </div>
         </div>
@@ -45,7 +51,6 @@ const About = () => {
           />
         </div>
       </div>
-      <ClientPage />
     </div>
   );
 };
