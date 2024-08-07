@@ -19,8 +19,8 @@ const Footer = () => {
           <span className="text-lg tracking-tight">LEGAL EXCELENCIA</span>
         </div>
 
-        <div className="flex flex-row justify-evenly items-center">
-          <ul className="flex mx-auto space-x-12 text-md">
+        <div className="flex flex-row flex-wrap justify-evenly items-center">
+          <ul className="flex mx-auto max-md:space-x-5 space-x-12 text-md gap-0">
             {navItems.map((item, index) => (
               <li key={index} className="hover:text-slate-400">
                 <a href={item.href}>{item.label}</a>

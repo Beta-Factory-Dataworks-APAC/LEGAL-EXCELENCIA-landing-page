@@ -63,7 +63,7 @@ const ClientPage = () => {
             Drop us a line, and we'll get in touch. 'll see if we're a match and
             how we can help each other.
           </div>
-          <button className="p-2 rounded-md bg-red-500 text-red-100 hover:bg-red-300 transition duration-300 ease-in-out cursor-pointer w-1/5">
+          <button className="p-2 rounded-md bg-red-500 text-red-100 hover:bg-red-300 transition duration-300 ease-in-out cursor-pointer w-1/3 md:w-1/5 max-sm:text-sm">
             Contact us
           </button>
         </div>

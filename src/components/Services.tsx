@@ -16,8 +16,8 @@ const Services = () => {
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
         Services
       </h2>
-      <div className="flex flex-wrap">
-        <div className="p-4 w-1/2 lg:w-1/3">
+      <div className="flex flex-wrap max-md:flex-col">
+        <div className="p-4 w-full md:w-1/2 lg:w-1/3">
           <div className="p-4">
             <h2 className="text-4xl font-bold flex gap-2 items-center">
               <Pickaxe />
@@ -29,7 +29,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 w-1/2 lg:w-1/3">
+        <div className="p-4 w-full md:w-1/2 lg:w-1/3">
           <div className="p-4">
             <h2 className="text-4xl font-bold flex gap-2 items-center">
               <Scale />
@@ -41,7 +41,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 w-1/2 lg:w-1/3">
+        <div className="p-4 w-full md:w-1/2 lg:w-1/3">
           <div className="p-4">
             <h2 className="text-4xl font-bold flex gap-2 items-center">
               <MailPlus />
@@ -53,7 +53,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 w-1/2 lg:w-1/3">
+        <div className="p-4 w-full md:w-1/2 lg:w-1/3">
           <div className="p-4">
             <h2 className="text-4xl font-bold flex gap-2 items-center">
               <Contact2 /> Family Law
@@ -64,7 +64,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 w-1/2 lg:w-1/3">
+        <div className="p-4 w-full md:w-1/2 lg:w-1/3">
           <div className="p-4">
             <h2 className="text-4xl font-bold flex gap-2 items-center">
               <Building2 />
@@ -77,7 +77,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 w-1/2 lg:w-1/3">
+        <div className="p-4 w-full md:w-1/2 lg:w-1/3">
           <div className="p-4">
             <h2 className="text-4xl font-bold flex gap-2 items-center">
               <Cctv />
