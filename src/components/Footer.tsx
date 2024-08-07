@@ -8,7 +8,7 @@ import insta from "@/assets/icons/instagram.svg";
 
 const Footer = () => {
   return (
-    <footer className="mt-20 border-t py-10 border-neutral-700">
+    <footer className="mt-20 py-10">
       <div className="flex flex-wrap gap-10 justify-between border-b-2 border-slate-300 pb-10">
         <div className="flex items-center flex-shrink-0">
           <Image

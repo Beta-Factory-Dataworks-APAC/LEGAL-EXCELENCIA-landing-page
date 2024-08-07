@@ -24,10 +24,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div
-      id="testimonials"
-      className="mt-20 tracking-wide border-t border-neutral-800"
-    >
+    <div id="testimonials" className="mt-20 tracking-wide pt-4">
       <div className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
         Testimonials
       </div>

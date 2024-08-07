@@ -5,10 +5,7 @@ import libraryImg from "@/assets/library.jpg";
 
 const About = () => {
   return (
-    <div
-      id="about"
-      className="relative mt-10 pt-16 border-b border-neutral-800 min-h-[800px]"
-    >
+    <div id="about" className="relative mt-10 pt-16 min-h-[800px]">
       <div className="flex justify-start ml-2">
         <span className=" text-slate-800 text-6xl font-medium px-2 py-1">
           Put yourself in the right hands

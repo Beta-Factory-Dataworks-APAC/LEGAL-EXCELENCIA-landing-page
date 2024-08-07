@@ -12,7 +12,7 @@ import {
 
 const Services = () => {
   return (
-    <div id="law-services" className="mt-10 border-b border-neutral-800 pt-16">
+    <div id="law-services" className="mt-10 pt-16">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
         Services
       </h2>
