@@ -10,12 +10,8 @@ const HeroSection = () => {
     <div className=" bg-blue-50 pt-10">
       <div id="hero" className="flex flex-col items-center mt-6 lg:mt-10 gap-5">
         <p className="text-blue-500 text-xl items-center">LEGAL EXCELENCIA</p>
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-          Legal Excelencia :{" "}
-          <span className="bg-gradient-to-r from-pink-500 to-red-600 text-transparent bg-clip-text">
-            {" "}
-            Allied for Excellence.
-          </span>
+        <h1 className="text-4xl lg:text-7xl text-center tracking-wide font-semibold">
+          Legal Excelencia : Allied for Excellence.
         </h1>
         <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
           Full-service corporate/commercial law firm with offices in Chandigarh,
@@ -23,25 +19,28 @@ const HeroSection = () => {
           <br /> 30+ skilled lawyers provide multi-jurisdictional expertise
           across various practice areas.
           <br />
-          <span className="bg-gradient-to-r from-pink-500 to-red-600 text-transparent bg-clip-text">
+          <span className="bg-clip-text font-semibold">
             Committed to professionalism, credibility, and exceptional client
             care for individuals and corporations.
           </span>
         </p>
         <div className="flex justify-center my-10">
           <a
-            href="#"
-            className="bg-gradient-to-r from-pink-500 to-red-500 py-3 px-4 mx-3 rounded-md text-white"
+            href="#info"
+            className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 py-4 px-8 mr-4 text-sm font-medium leading-normal bg-red-500 hover:bg-red-300 text-white rounded transition duration-200"
           >
             Contact us
           </a>
-          <a href="#" className="py-3 px-4 mx-3 rounded-md border-2">
+          <a
+            href="#about"
+            className="py-3 px-4 mx-3 rounded-md border-2 border-neutral-300"
+          >
             Learn more
           </a>
         </div>
       </div>
 
-      <div className="hidden lg:h-[200px] lg:flex lg:gap-32 lg:justify-center">
+      <div className="hidden lg:mt-28 lg:h-[200px] lg:flex lg:gap-32 lg:justify-center">
         {testimonials.map((user, index) => (
           <div className="h-auto flex" key={index}>
             <Image

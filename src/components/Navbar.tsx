@@ -33,9 +33,13 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div className="hidden lg:flex justify-center space-x-12 items-center ml-8 p-2 rounded-md bg-red-200 text-red-500 hover:bg-red-300 transition duration-500 ease-in-out cursor-pointer">
+            <a
+              className="hidden lg:flex justify-center space-x-12 items-center ml-8 p-2 rounded-md bg-red-200 text-red-500 hover:bg-red-300 transition duration-500 ease-in-out cursor-pointer"
+              href="#info"
+              onClick={toggleNavbar}
+            >
               Contact us
-            </div>
+            </a>
           </div>
 
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -54,6 +58,20 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+              <div className="mt-auto">
+                <div className="pt-6">
+                  <a
+                    className="block py-3 text-center text-sm leading-normal bg-red-50 hover:bg-red-100 text-red-300 font-semibold rounded transition duration-200"
+                    href="#info"
+                    onClick={toggleNavbar}
+                  >
+                    Contact Us
+                  </a>
+                </div>
+                <p className="mt-6 mb-4 text-sm text-center text-gray-500">
+                  <span>© {new Date().getFullYear()} All rights reserved.</span>
+                </p>
+              </div>
             </ul>
           </div>
         )}

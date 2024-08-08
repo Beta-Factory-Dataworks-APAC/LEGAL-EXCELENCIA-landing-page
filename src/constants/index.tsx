@@ -84,45 +84,38 @@ export const teamMembers = [
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Rajesh Kapoor",
+    company: "CEO, TechInnovate Solutions Pvt. Ltd.",
     image: user1,
     review:
-      "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+      "LEGAL EXCELENCIA has been instrumental in protecting our intellectual property. Their team's expertise in patent law helped us secure crucial patents for our latest tech innovations. Their proactive approach and clear communication made the complex process much smoother. Highly recommended for any tech company looking to safeguard their innovations.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Priya Sharma",
+    company: "HR Director, GreenLeaf Organics",
     image: user2,
     review:
-      "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+      "We engaged LEGAL EXCELENCIA for some tricky employee disputes, and I'm impressed with their handling of sensitive matters. Their litigation team showed great skill in negotiation, often resolving issues before they escalated to court. Their understanding of labor laws is top-notch, and they always kept us informed at every step.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Amit Gupta",
+    company: "Founder, StartUp Launchpad",
     image: user3,
     review:
-      "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+      "As a startup founder, I needed comprehensive legal support without breaking the bank. LEGAL EXCELENCIA delivered exactly that. From company incorporation to drafting shareholder agreements, they guided us through every legal aspect of setting up our business. Their corporate law team is not just knowledgeable but also understands the unique challenges startups face.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Neha Reddy",
+    company: "Real Estate Developer, Skyline Builders",
     image: user4,
     review:
-      "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+      "I've worked with several law firms over the years, but LEGAL EXCELENCIA stands out for their real estate expertise. They handled our land acquisitions with great diligence, conducting thorough due diligence that saved us from potential legal pitfalls. Their attention to detail in contract drafting is impressive.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Vikram Malhotra",
+    company: "CFO, GlobalTrade Enterprises",
     image: user5,
     review:
-      "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
-  {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    review:
-      "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+      "When our company decided to expand internationally, we turned to LEGAL EXCELENCIA for guidance on cross-border regulations and compliance. Their team's multi-jurisdictional expertise was invaluable. They helped us navigate complex legal landscapes with ease, ensuring our expansion was smooth and compliant. Their commitment to understanding our business needs sets them apart.",
   },
 ];
