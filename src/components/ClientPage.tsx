@@ -72,25 +72,32 @@ const ClientPage = () => {
           </div>
         </div>
       </section>
-      <div className="flex flex-col justify-evenly items-center lg:h-80 h-auto gap-4 bg-blue-900 text-white mt-5 rounded-tl-3xl rounded-br-3xl p-4">
-        <div className="font-semibold h-auto text-6xl">
-          We are here to help you - let's talk today!
-        </div>
-        <div className="flex flex-col gap-4 justify-center items-center">
-          <div className="text-xl w-full">
-            Facing a complex legal challenge? Need expert guidance on Indian
-            law? LEGAL EXCELENCIA is here to help. Contact us, and our
-            experienced lawyers will develop a tailored strategy for your unique
-            situation. Whether you're an individual or a corporation, we provide
-            top-quality legal support. Let's discuss how we can achieve your
-            goals together. Contact us now to resolve your legal matters with
-            confidence.
+      <section className="bg-blue-950 py-20">
+        <div className="container px-4 mx-auto">
+          <h2 className="mb-8 md:mb-16 text-4xl lg:text-6xl font-semibold font-heading text-white">
+            We are here to help you - let's talk today!
+          </h2>
+          <div className="flex flex-wrap items-center">
+            <div className="inline-block max-w-xl mb-6 md:mb-0">
+              <p className="text-xl text-gray-300">
+                Facing a complex legal challenge? Need expert guidance on Indian
+                law? LEGAL EXCELENCIA is here to help. Contact us, and our
+                experienced lawyers will develop a tailored strategy for your
+                unique situation. Whether you're an individual or a corporation,
+                we provide top-quality legal support. Let's discuss how we can
+                achieve your goals together. Contact us now to resolve your
+                legal matters with confidence.
+              </p>
+            </div>
+            <a
+              className="inline-block ml-auto w-full md:w-auto px-12 py-4 text-center text-sm text-white font-medium leading-normal bg-red-400 hover:bg-red-300 rounded transition duration-200"
+              href="#info"
+            >
+              Contact us
+            </a>
           </div>
-          <button className="p-2 rounded-md bg-red-500 text-red-100 hover:bg-red-300 transition duration-300 ease-in-out cursor-pointer w-1/3 md:w-1/5 max-sm:text-sm">
-            Contact us
-          </button>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

@@ -9,11 +9,6 @@ const About = () => {
       <section className="relative py-20">
         <div className="container px-4 mx-auto">
           <div className="relative flex flex-wrap items-center -mx-4">
-            <img
-              className="hidden xl:block absolute top-0 right-0 mt-40 -mr-32"
-              src="zeus-assets/icons/dots/red-dot-right-shield.svg"
-              alt="points"
-            />
             <div className="relative w-full lg:w-1/2 px-4 pb-12 lg:pb-0">
               <div className="max-w-max">
                 <h2 className="mb-10 lg:mb-16 text-4xl font-semibold font-heading">

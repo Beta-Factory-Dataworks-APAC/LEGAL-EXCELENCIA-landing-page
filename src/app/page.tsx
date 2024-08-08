@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <div className="w-vw mx-auto px-2">
+      <div className="w-full mx-auto px-4 lg:px-7">
         <HeroSection />
         <About />
         <Services />
