@@ -1,8 +1,3 @@
-import Image, { StaticImageData } from "next/image";
-
-import ClientPage from "./ClientPage";
-import libraryImg from "@/assets/library.jpg";
-
 const About = () => {
   return (
     <div id="about" className="relative mt-10 pt-16 min-h-[800px]">

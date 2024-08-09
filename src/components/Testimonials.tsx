@@ -4,8 +4,7 @@ import { testimonials } from "../constants";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { StaticImageData } from "next/image";
-import Image from "next/image";
+
 // import dynamic from "next/dynamic";
 
 // const Slider = dynamic(() => import("react-slick"), { ssr: false });
@@ -37,11 +36,11 @@ const Testimonials = () => {
               <div key={index} className="h-auto bg-white rounded-xl ">
                 <div className="rounded-md text-md  font-semibold">
                   <div className="flex lg:ml-20 max-lg:flex-col max-lg:justify-center justify-evenly max-lg:items-center max-lg:w-full gap-5">
-                    <Image
+                    {/* <Image
                       className="h-32 w-32 rounded-full border border-neutral-500"
                       src={testimonial.image as StaticImageData}
                       alt=""
-                    />
+                    /> */}
                     <div className="flex flex-col justify-evenly p-2">
                       <h6>{testimonial.user}</h6>
                       <span className="text-sm font-normal italic text-neutral-600">
@@ -49,7 +48,7 @@ const Testimonials = () => {
                       </span>
                     </div>
                     <div className="lg:px-32 m-auto items-center">
-                      <p>{testimonial.review}</p>
+                      <p>&quot;{testimonial.review}&quot;</p>
                     </div>
                   </div>
                 </div>

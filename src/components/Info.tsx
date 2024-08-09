@@ -28,7 +28,7 @@ const Info = () => {
         Reach out to us today to schedule a consultation and discover how LEGAL
         EXCELENCIA can provide the legal support you need to succeed.
       </span>
-      <div className="mt-10 flex flex-wrap max-md:flex-col justify-center items-center gap-8 text-slate-500 text-sm mx-auto ">
+      <div className="mt-10 p-4 flex flex-wrap max-md:flex-col justify-center items-center gap-8 text-slate-500 text-sm mx-auto ">
         <div className="flex flex-col md:w-1/5 w-full justify-start">
           <h2 className="font-semibold">CHANDIGARH office</h2>
           <p>3065, BLOOD DONORS APARTMENTS, SECTOR 50 -D CHANDIGARH-160047</p>

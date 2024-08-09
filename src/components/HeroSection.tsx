@@ -1,7 +1,7 @@
 // import video1 from "../assets/video1.mp4";
 // import video2 from "../assets/video2.mp4";
 
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import Caption from "@/assets/caption.png";
 import logo from "@/assets/logo.png";
 

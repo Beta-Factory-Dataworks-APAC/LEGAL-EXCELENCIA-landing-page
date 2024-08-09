@@ -1,5 +1,5 @@
 "use client";
-import { Contact, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-3 bg-blue-50">
+    <nav className="sticky top-0 z-50 py-3 bg-white">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">

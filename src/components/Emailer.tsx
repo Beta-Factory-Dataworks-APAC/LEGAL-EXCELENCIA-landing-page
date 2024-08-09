@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ContactForm from "./form";
 
 const Emailer = () => {
