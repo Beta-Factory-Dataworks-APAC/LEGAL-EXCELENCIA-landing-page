@@ -19,11 +19,18 @@ export const navItems = [
   { label: "Testimonials", href: "#testimonials" },
 ];
 
+export const color = {
+  primary: "#02123E",
+  secondary: "#FFC0CB",
+  tertiary: "#758493",
+  quaternary: "#276BAF",
+};
+
 export const teamMembers = [
   {
-    name: "John Doe",
-    role: "CEO",
-    image: user1,
+    name: "VISHAL SHARMA",
+    role: "Founder of LEGAL EXCELENCIA, brings 15 years of expertise in civil, criminal, and corporate litigation, and 8 years of specialization in Intellectual Property Rights, representing top entities at the Punjab & Haryana High Court and Supreme Court.",
+    // image: user1,
     linkedin: <Linkedin />,
     email: <Mail />,
     linkedin_id: "https://www.linkedin.com/",
@@ -31,9 +38,9 @@ export const teamMembers = [
     achievements: [],
   },
   {
-    name: "Jane Smith",
-    role: "CTO",
-    image: user2,
+    name: "SHANTANU SINGH",
+    role: "With a decade of legal expertise, specializes in Intellectual Property and Cyber Laws. Holding advanced degrees in IP Law and Cyber Law, he serves as a panel advocate for both government and private insurance companies.",
+    // image: user2,
     linkedin: <Linkedin />,
     email: <Mail />,
     linkedin_id: "https://www.linkedin.com/",
@@ -41,9 +48,9 @@ export const teamMembers = [
     achievements: [],
   },
   {
-    name: "David Johnson",
-    role: "Attorney",
-    image: user3,
+    name: "AJAY PAL SINGH",
+    role: "With 14 years of experience, specializes in legal drafting, vetting for top corporate clients, and Intellectual Property Rights, including trademarks, copyrights, and designs. His portfolio includes serving renowned companies like Infosys Ltd. and JW Marriot Hotel.",
+    // image: user3,
     linkedin: <Linkedin />,
     email: <Mail />,
     linkedin_id: "https://www.linkedin.com/",
@@ -51,9 +58,9 @@ export const teamMembers = [
     achievements: [],
   },
   {
-    name: "Ronee Brown",
-    role: "Attorney",
-    image: user4,
+    name: "DHAWAL BHANDARI",
+    role: "Dhawal Bhandari, with 15 years of experience, has a broad legal practice across the Supreme Court of India, Punjab & Haryana High Court, Delhi High Court, and various tribunals like CAT and DRT in Chandigarh and Delhi.",
+    // image: user4,
     linkedin: <Linkedin />,
     email: <Mail />,
     linkedin_id: "https://www.linkedin.com/",
@@ -61,9 +68,9 @@ export const teamMembers = [
     achievements: [],
   },
   {
-    name: "Michael Wilson",
-    role: "Attorney",
-    image: user5,
+    name: "JAISURYA JAIN",
+    role: "A legal expert since 2013 with specialization from Harvard, excels in Civil Laws and Commercial Contracts, particularly in Real Estate, Banking, and Employment Laws. He has successfully represented major government bodies and embassies in litigation matters across various legal forums.",
+    // image: user5,
     linkedin: <Linkedin />,
     email: <Mail />,
     linkedin_id: "https://www.linkedin.com/",
@@ -71,9 +78,19 @@ export const teamMembers = [
     achievements: [],
   },
   {
-    name: "Emily Davis",
-    role: "Attorney",
-    image: user6,
+    name: "VIREN SIBAL",
+    role: "VIREN SIBAL has been enrolled with the Bar Council of Delhi since 2017. He is a Third Generation Lawyer, who has a modern, fresh and eclectic approach towards litigation, all while preserving traditional values. He has also been working in the field of Intellectual Property Rights and deals with Intellectual Property Rights Registration and litigation.",
+    // image: user6,
+    linkedin: <Linkedin />,
+    email: <Mail />,
+    linkedin_id: "https://www.linkedin.com/",
+    mail_id: "mailto:<email-here>",
+    achievements: [],
+  },
+  {
+    name: "PARITOSH ANAND",
+    role: "Paritosh Anand, a legal professional since 2021, specializes in Intellectual Property Rights with a focus on Trademark Registration, Industrial Designs, Patents, and Copyrights, including related litigation.",
+    // image: user6,
     linkedin: <Linkedin />,
     email: <Mail />,
     linkedin_id: "https://www.linkedin.com/",

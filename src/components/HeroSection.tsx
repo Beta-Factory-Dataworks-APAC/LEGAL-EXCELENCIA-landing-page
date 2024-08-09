@@ -1,15 +1,28 @@
 // import video1 from "../assets/video1.mp4";
 // import video2 from "../assets/video2.mp4";
 
-import { useEffect } from "react";
-import { testimonials } from "../constants";
 import Image, { StaticImageData } from "next/image";
+import Caption from "@/assets/caption.png";
+import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
   return (
-    <div className=" bg-blue-50 pt-10 lg:pb-16">
+    <div className=" bg-blue-50 pt-10 lg:pb-16 max-md:px-8">
       <div id="hero" className="flex flex-col items-center mt-6 lg:mt-10 gap-5">
-        <p className="text-blue-500 text-xl items-center">LEGAL EXCELENCIA</p>
+        <div className="inline-block items-center bg-blue-50 rounded-md">
+          <Image
+            className="h-32 w-auto rounded-md"
+            src={logo as unknown as string}
+            alt={"caption"}
+          />
+        </div>
+        <div className="inline-block items-center bg-blue-50 rounded-md border-[1px] border-blue-950">
+          <Image
+            className="h-16 w-auto rounded-md"
+            src={Caption as unknown as string}
+            alt={"caption"}
+          />
+        </div>
         <h1 className="text-4xl lg:text-7xl text-center tracking-wide font-semibold">
           Legal Excelencia : Allied for Excellence.
         </h1>
