@@ -28,23 +28,30 @@ const Info = () => {
         Reach out to us today to schedule a consultation and discover how LEGAL
         EXCELENCIA can provide the legal support you need to succeed.
       </span>
-      <div className="mt-10 flex flex-wrap max-md:flex-col justify-center items-center gap-8 text-slate-500 mx-auto ">
-        <div className="flex flex-col md:w-1/4 w-2/3 justify-start">
-          <h2 className="text-xl">CHANDIGARH office</h2>
+      <div className="mt-10 flex flex-wrap max-md:flex-col justify-center items-center gap-8 text-slate-500 text-sm mx-auto ">
+        <div className="flex flex-col md:w-1/5 w-full justify-start">
+          <h2 className="font-semibold">CHANDIGARH office</h2>
           <p>3065, BLOOD DONORS APARTMENTS, SECTOR 50 -D CHANDIGARH-160047</p>
         </div>
-        <div className="flex flex-col md:w-1/4 w-2/3 justify-start">
-          <h2 className="text-xl">MUMBAI office</h2>
+        <div className="flex flex-col md:w-1/5 w-full justify-start">
+          <h2 className="font-semibold">MUMBAI office</h2>
           <p>
             306, Vardhman Chambers, 17-G, Cawasji Patel Street, Fort,
             Mumbai-400001
           </p>
         </div>
-        <div className="flex flex-col md:w-1/4 w-2/3 justify-start">
-          <h2 className="text-xl">DELHI office</h2>
+        <div className="flex flex-col md:w-1/5 w-full justify-start">
+          <h2 className="font-semibold">DELHI office</h2>
           <p>
             52, BASEMENT, BLOCK -D, PANCHSHEEL ENCLAVE, DELHI, 110017 #E-57
             BASEMENT, GREATER KAILASH -2, DELHI -110017
+          </p>
+        </div>
+        <div className="flex flex-col md:w-1/5 w-full justify-start">
+          <h2 className="font-semibold">PANCHKULA office</h2>
+          <p>
+            SCF-5, SECTOR-2, PANCHKULA HARYANA 134109 # 12-B, GH-39, M.D.C
+            SECTOR -5 PANCHKULA, HARYANA 134112
           </p>
         </div>
       </div>
