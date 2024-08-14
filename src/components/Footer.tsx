@@ -29,7 +29,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="mt-10 py-4 mx-auto w-full flex flex-col gap-6 lg:flex-row-reverse justify-between">
+      {/* <div className="mt-10 py-4 mx-auto w-full flex flex-col gap-6 lg:flex-row-reverse justify-between"> */}
+      <div className="hidden">
         <ul className="lg:mr-0 flex flex-row mx-auto gap-8">
           <li>
             {/* add own link */}

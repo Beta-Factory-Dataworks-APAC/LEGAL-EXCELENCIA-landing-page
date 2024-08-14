@@ -7,7 +7,7 @@ import Info from "@/components/Info";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 // import Image from "next/image";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         <Services />
         <ClientPage />
         <Team />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Info />
         <Emailer />
         <Footer />
