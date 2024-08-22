@@ -4,6 +4,7 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
 import Image from "next/image";
+import "./styles.css";
 // import Button from "./ui/Button";
 
 const Navbar = () => {
@@ -23,7 +24,9 @@ const Navbar = () => {
               src={logo as unknown as string}
               alt="Logo"
             />
-            <span className="text-xl tracking-tight">LEGAL EXCELENCIA</span>
+            <span className="custom-font text-xl tracking-tight text-[#1f3864]">
+              LEGAL EXCELENCIA
+            </span>
           </div>
           <div className="flex justify-between items-center">
             <ul className="hidden lg:flex ml-14 space-x-12 text-lg">

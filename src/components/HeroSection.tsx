@@ -4,27 +4,31 @@
 import Image from "next/image";
 import Caption from "@/assets/caption.png";
 import logo from "@/assets/logo.png";
+import "./styles.css";
 
 const HeroSection = () => {
   return (
-    <div className=" bg-blue-50 pt-10 lg:pb-16 max-md:px-8">
+    <div className=" bg-white pt-10 lg:pb-16 max-md:px-8">
       <div id="hero" className="flex flex-col items-center mt-6 lg:mt-10 gap-5">
-        <div className="inline-block items-center bg-blue-50 rounded-md">
+        <div className="inline-block items-center rounded-md">
           <Image
             className="h-32 w-auto rounded-md"
             src={logo as unknown as string}
             alt={"caption"}
           />
         </div>
-        <div className="inline-block items-center bg-blue-50 rounded-md border-[1px] border-blue-950">
+        <div className="inline-block items-center rounded-md border-[1px] border-blue-950">
           <Image
             className="h-16 w-auto rounded-md"
             src={Caption as unknown as string}
             alt={"caption"}
           />
         </div>
-        <h1 className="text-4xl lg:text-7xl text-center tracking-wide font-semibold">
-          Legal Excelencia : Allied for Excellence.
+        <h1 className="custom-font text-4xl lg:text-7xl text-center tracking-wide text-[#1f3864] flex flex-col gap-2">
+          LEGAL EXCELENCIA <br />{" "}
+          <span className="text-[#2f5496] lg:text-5xl">
+            Allied for Excellence.
+          </span>
         </h1>
         <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
           Full-service corporate/commercial law firm with offices in Chandigarh,

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-email/components": "^0.0.22",
+    "cookies-next": "^4.2.1",
     "dotenv": "^16.4.5",
     "form-data": "^4.0.0",
     "formik": "^2.4.6",
