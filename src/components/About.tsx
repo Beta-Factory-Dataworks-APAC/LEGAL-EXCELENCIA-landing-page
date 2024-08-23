@@ -5,11 +5,11 @@ const About = () => {
         <div className="container px-4 mx-auto">
           <div className="relative flex flex-wrap items-center -mx-4">
             <div className="relative w-full lg:w-1/2 px-4 pb-12 lg:pb-0">
-              <div className="max-w-max">
+              <div className="w-auto">
                 <h2 className="mb-10 lg:mb-16 text-4xl font-semibold font-heading">
                   Put yourself in the right hands
                 </h2>
-                <div className="flex items-start mb-10">
+                <div className="flex items-start max-lg:w-full mb-10">
                   <div className="mt-2 mr-4">
                     <svg
                       width={20}
@@ -26,7 +26,7 @@ const About = () => {
                       />
                     </svg>
                   </div>
-                  <div className="max-w-sm">
+                  <div className="max-lg:w-full">
                     <h3 className="mb-6 text-2xl font-semibold font-heading">
                       500+ trusting clients
                     </h3>
@@ -55,7 +55,7 @@ const About = () => {
                       />
                     </svg>
                   </div>
-                  <div className="max-w-sm">
+                  <div className="max-lg:w-full">
                     <h3 className="mb-6 text-2xl font-semibold font-heading">
                       30+ lawyers and attorneys
                     </h3>
@@ -84,7 +84,7 @@ const About = () => {
                       />
                     </svg>
                   </div>
-                  <div className="max-w-sm">
+                  <div className="max-lg:w-full">
                     <h3 className="mb-6 text-2xl font-semibold font-heading">
                       A reliable partner at a good price
                     </h3>

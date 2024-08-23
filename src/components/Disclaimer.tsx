@@ -1,19 +1,23 @@
 "use client";
 import React from "react";
 import { hasCookie, setCookie } from "cookies-next";
-import Link from "next/link";
-import { redirect } from "next/navigation";
+// import Link from "next/link";
+// import { redirect } from "next/navigation";
 
 const Disclaimer = () => {
-  const [showDisclaimer, setShowDisclaimer] = React.useState(true);
+  const [showDisclaimer, setShowDisclaimer] = React.useState(false);
 
-  // React.useEffect(() => {
-  //   if (hasCookie("disclaimer")) {
-  //     setShowDisclaimer(false);
-  //   } else {
-  //     setShowDisclaimer(true);
-  //   }
-  // }, []);
+  React.useEffect(() => {
+    if (hasCookie("disclaimer")) {
+      setShowDisclaimer(false);
+    } else {
+      setShowDisclaimer(true);
+    }
+  }, []);
+
+  function redirect(url: string) {
+    window.location.href = url;
+  }
 
   const handleAccept = () => {
     const expirationDate = new Date();
@@ -62,9 +66,6 @@ const Disclaimer = () => {
       </div>
     </div>
   );
-  function redirect(url: string) {
-    window.location.href = url;
-  }
 };
 
 export default Disclaimer;

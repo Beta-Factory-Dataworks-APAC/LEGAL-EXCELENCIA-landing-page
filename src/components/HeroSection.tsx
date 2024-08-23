@@ -75,49 +75,49 @@ const HeroSection = () => {
             <div className="w-4/5 px-4">
               <img
                 className="h-52 rounded-lg object-cover"
-                src="https://static.shuffle.dev/uploads/files/31/31993a7f1bea9fbb107ee5422dfe4ab6e063d82e/alex-starnes-PK-t0Lrh7MM-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="heropics"
               />
             </div>
             <div className="w-3/5 px-4">
               <img
                 className="h-40 w-full rounded-lg object-cover"
-                src="https://static.shuffle.dev/uploads/files/31/31993a7f1bea9fbb107ee5422dfe4ab6e063d82e/fray-bekele-i3yhGV0Z6iE-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ycG9yYXRlJTIwbGF3fGVufDB8fDB8fHwy"
                 alt="heropics"
               />
             </div>
-            <div className="w-auto px-4 mt-12">
+            <div className="px-4 mt-12 w-80">
               <img
                 className="h-40 w-full rounded-lg object-cover"
-                src="https://images.unsplash.com/photo-1544717301-9cdcb1f5940f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                src="https://images.unsplash.com/photo-1555374018-13a8994ab246?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3JpbWluYWwlMjBsYXd8ZW58MHx8MHx8fDI%3D"
                 alt="heropics"
               />
             </div>
             <div className="w-1/5 flex-shrink-0 px-4">
               <img
                 className="h-64 w-full rounded-lg object-cover"
-                src="https://static.shuffle.dev/uploads/files/31/31993a7f1bea9fbb107ee5422dfe4ab6e063d82e/pexels-kampus-production-8353824.jpg"
+                src="https://images.unsplash.com/photo-1521791055366-0d553872125f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvcnBvcmF0ZSUyMGxhd3xlbnwwfHwwfHx8Mg%3D%3D"
                 alt="heropics"
               />
             </div>
             <div className="w-3/5 px-4 mt-12">
               <img
                 className="h-40 w-full rounded-lg object-cover"
-                src="https://static.shuffle.dev/uploads/files/31/31993a7f1bea9fbb107ee5422dfe4ab6e063d82e/brian-tromp-mw4u9Qm6CHQ-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ycG9yYXRlJTIwbGF3fGVufDB8fDB8fHwy"
                 alt="heropics"
               />
             </div>
             <div className="w-3/5 px-4">
               <img
                 className="h-40 w-full rounded-lg object-cover"
-                src="https://static.shuffle.dev/uploads/files/31/31993a7f1bea9fbb107ee5422dfe4ab6e063d82e/mateus-campos-felipe-WnPJft0DJpk-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1601041084273-6114cad589d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGF3JTIwZmlybXxlbnwwfHwwfHx8Mg%3D%3D"
                 alt="heropics"
               />
             </div>
             <div className="w-3/5 px-4">
               <img
                 className="h-52 w-full rounded-lg object-cover"
-                src="https://static.shuffle.dev/uploads/files/31/31993a7f1bea9fbb107ee5422dfe4ab6e063d82e/matteo-minoglio-hb555z0ZT-8-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvcHlyaWdodCUyMGxhd3xlbnwwfHwwfHx8MA%3D%3D"
                 alt="heropics"
               />
             </div>
