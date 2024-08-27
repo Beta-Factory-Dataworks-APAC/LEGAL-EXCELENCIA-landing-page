@@ -113,6 +113,77 @@ const Services = () => {
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
+                    width={22}
+                    height={18}
+                    viewBox="0 0 22 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.8877 7.89673C18.2827 7.70073 19.3567 6.50473 19.3597 5.05573C19.3597 3.62773 18.3187 2.44373 16.9537 2.21973"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M18.7285 11.2502C20.0795 11.4522 21.0225 11.9252 21.0225 12.9002C21.0225 13.5712 20.5785 14.0072 19.8605 14.2812"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M10.8867 11.6638C7.67273 11.6638 4.92773 12.1508 4.92773 14.0958C4.92773 16.0398 7.65573 16.5408 10.8867 16.5408C14.1007 16.5408 16.8447 16.0588 16.8447 14.1128C16.8447 12.1668 14.1177 11.6638 10.8867 11.6638Z"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M10.8869 8.88788C12.9959 8.88788 14.7059 7.17888 14.7059 5.06888C14.7059 2.95988 12.9959 1.24988 10.8869 1.24988C8.7779 1.24988 7.0679 2.95988 7.0679 5.06888C7.0599 7.17088 8.7569 8.88088 10.8589 8.88788H10.8869Z"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M4.88484 7.89673C3.48884 7.70073 2.41584 6.50473 2.41284 5.05573C2.41284 3.62773 3.45384 2.44373 4.81884 2.21973"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M3.044 11.2502C1.693 11.4522 0.75 11.9252 0.75 12.9002C0.75 13.5712 1.194 14.0072 1.912 14.2812"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+                <div>
+                  <h3 className="mb-4 text-2xl font-semibold font-heading">
+                    Alternative Dispute Resolution
+                  </h3>
+                  <p className="text-base text-gray-500">
+                    {" "}
+                    We offer top-tier arbitration and mediation services, with a
+                    team of experienced legal professionals adept at finding
+                    efficient, cost-effective solutions to disputes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="flex">
+                <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
+                  <svg
                     width={18}
                     height={20}
                     viewBox="0 0 18 20"
@@ -204,42 +275,23 @@ const Services = () => {
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
-                    width={24}
-                    height={20}
-                    viewBox="0 0 24 20"
+                    width={18}
+                    height={21}
+                    viewBox="0 0 18 21"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22.5 10.8055H1.5"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.98457 19.606C8.98457 19.606 16.6566 17.283 16.6566 10.879C16.6566 4.474 16.9346 3.974 16.3196 3.358C15.7036 2.742 9.99057 0.75 8.98457 0.75C7.97857 0.75 2.26557 2.742 1.65057 3.358C1.03457 3.974 1.31257 4.474 1.31257 10.879C1.31257 17.283 8.98457 19.606 8.98457 19.606Z"
                       stroke="currentColor"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
-                      d="M20.6299 6.5951V5.0821C20.6299 3.0211 18.9589 1.3501 16.8969 1.3501H15.6919"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M3.37012 6.5951V5.0821C3.37012 3.0211 5.04112 1.3501 7.10312 1.3501H8.33912"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M20.6299 10.8046V14.8786C20.6299 16.9406 18.9589 18.6116 16.8969 18.6116H15.6919"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M3.37012 10.8046V14.8786C3.37012 16.9406 5.04112 18.6116 7.10312 18.6116H8.33912"
+                      d="M6.38599 9.87463L8.27799 11.7696L12.176 7.86963"
                       stroke="currentColor"
                       strokeWidth="1.5"
                       strokeLinecap="round"
@@ -249,11 +301,15 @@ const Services = () => {
                 </span>
                 <div>
                   <h3 className="mb-4 text-2xl font-semibold font-heading">
-                    Real Estate
+                    Patents
                   </h3>
                   <p className="text-base text-gray-500">
-                    From contract drafting to land title due diligence, we offer
-                    comprehensive real estate legal services.
+                    {" "}
+                    From idea to protection, we're your patent partners. We'll
+                    help you secure rights for your inventions, guiding you
+                    through the maze of patent law. For 20 years, we'll
+                    safeguard your innovation, letting you focus on what you do
+                    best - inventing the future.
                   </p>
                 </div>
               </div>
@@ -311,53 +367,42 @@ const Services = () => {
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
-                    width={22}
-                    height={18}
-                    viewBox="0 0 22 18"
+                    width={24}
+                    height={20}
+                    viewBox="0 0 24 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M16.8877 7.89673C18.2827 7.70073 19.3567 6.50473 19.3597 5.05573C19.3597 3.62773 18.3187 2.44373 16.9537 2.21973"
+                      d="M22.5 10.8055H1.5"
                       stroke="currentColor"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
-                      d="M18.7285 11.2502C20.0795 11.4522 21.0225 11.9252 21.0225 12.9002C21.0225 13.5712 20.5785 14.0072 19.8605 14.2812"
+                      d="M20.6299 6.5951V5.0821C20.6299 3.0211 18.9589 1.3501 16.8969 1.3501H15.6919"
                       stroke="currentColor"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M10.8867 11.6638C7.67273 11.6638 4.92773 12.1508 4.92773 14.0958C4.92773 16.0398 7.65573 16.5408 10.8867 16.5408C14.1007 16.5408 16.8447 16.0588 16.8447 14.1128C16.8447 12.1668 14.1177 11.6638 10.8867 11.6638Z"
+                      d="M3.37012 6.5951V5.0821C3.37012 3.0211 5.04112 1.3501 7.10312 1.3501H8.33912"
                       stroke="currentColor"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M10.8869 8.88788C12.9959 8.88788 14.7059 7.17888 14.7059 5.06888C14.7059 2.95988 12.9959 1.24988 10.8869 1.24988C8.7779 1.24988 7.0679 2.95988 7.0679 5.06888C7.0599 7.17088 8.7569 8.88088 10.8589 8.88788H10.8869Z"
+                      d="M20.6299 10.8046V14.8786C20.6299 16.9406 18.9589 18.6116 16.8969 18.6116H15.6919"
                       stroke="currentColor"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
-                      d="M4.88484 7.89673C3.48884 7.70073 2.41584 6.50473 2.41284 5.05573C2.41284 3.62773 3.45384 2.44373 4.81884 2.21973"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M3.044 11.2502C1.693 11.4522 0.75 11.9252 0.75 12.9002C0.75 13.5712 1.194 14.0072 1.912 14.2812"
+                      d="M3.37012 10.8046V14.8786C3.37012 16.9406 5.04112 18.6116 7.10312 18.6116H8.33912"
                       stroke="currentColor"
                       strokeWidth="1.5"
                       strokeLinecap="round"
@@ -367,56 +412,11 @@ const Services = () => {
                 </span>
                 <div>
                   <h3 className="mb-4 text-2xl font-semibold font-heading">
-                    Alternative Dispute Resolution
+                    Real Estate
                   </h3>
                   <p className="text-base text-gray-500">
-                    {" "}
-                    We offer top-tier arbitration and mediation services, with a
-                    team of experienced legal professionals adept at finding
-                    efficient, cost-effective solutions to disputes.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
-              <div className="flex">
-                <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
-                  <svg
-                    width={18}
-                    height={21}
-                    viewBox="0 0 18 21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M8.98457 19.606C8.98457 19.606 16.6566 17.283 16.6566 10.879C16.6566 4.474 16.9346 3.974 16.3196 3.358C15.7036 2.742 9.99057 0.75 8.98457 0.75C7.97857 0.75 2.26557 2.742 1.65057 3.358C1.03457 3.974 1.31257 4.474 1.31257 10.879C1.31257 17.283 8.98457 19.606 8.98457 19.606Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M6.38599 9.87463L8.27799 11.7696L12.176 7.86963"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-                <div>
-                  <h3 className="mb-4 text-2xl font-semibold font-heading">
-                    Patents
-                  </h3>
-                  <p className="text-base text-gray-500">
-                    {" "}
-                    From idea to protection, we're your patent partners. We'll
-                    help you secure rights for your inventions, guiding you
-                    through the maze of patent law. For 20 years, we'll
-                    safeguard your innovation, letting you focus on what you do
-                    best - inventing the future.
+                    From contract drafting to land title due diligence, we offer
+                    comprehensive real estate legal services.
                   </p>
                 </div>
               </div>

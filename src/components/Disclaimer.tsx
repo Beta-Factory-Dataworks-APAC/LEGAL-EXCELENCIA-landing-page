@@ -36,17 +36,20 @@ const Disclaimer = () => {
           Disclaimer
         </p>
         <div className="text-dark text-base mx-auto px-10 flex flex-col gap-5">
-          <p className="flex flex-wrap text-sm lg:text-lg mx-auto">
-            As far the rules of the Bar Council of India, we are not permitted
-            to solicit work or advertise in any manner LEGAL EXCELENCIA takes no
-            liability for consequences of any action taken by you relying on the
-            matter/information/content mention in the brochure. The information
-            provided herein should not be interpreted as legal advice for which
-            the user must make independent inquiries. Whilst every effort has
-            been taken to ensure the accuracy of the content of the brochure,
-            LEGAL EXCELENCIA disclaims all liability arising from reliance
-            placed by the user or any other third party on the information
-            contained therein
+          <p className="flex flex-wrap max-md:text-xs lg:text-lg mx-auto">
+            As per the rules of the Bar Council of India, we are not permitted
+            to solicit work or advertise in any manner. By proceeding further
+            and clicking on “I Accept” below, the user acknowledges that the
+            transmission, receipt or use of the information on our website does
+            not tantamount to solicitation, advertisement, inducement or
+            personal communication of any sort for and on behalf of the Firm so
+            as to create an attorney-client relationship.
+            <br /> The information provided herein should not be interpreted as
+            legal advice, for which the user must make independent inquiries.
+            Whilst every effort has been taken to ensure the accuracy of the
+            contents of this website, JusIP disclaims all liability arising from
+            reliance placed by the user or any other third party on the
+            information contained therein.
           </p>
           <div className="flex flex-col lg:flex-row gap-2 mx-auto">
             <button

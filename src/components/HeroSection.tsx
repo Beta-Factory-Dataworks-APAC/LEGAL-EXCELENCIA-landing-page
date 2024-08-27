@@ -3,6 +3,7 @@
 
 import Image from "next/image";
 import Caption from "@/assets/caption.png";
+import whiteCaption from "@/assets/caption-white.png";
 import logo from "@/assets/logo.png";
 import "./styles.css";
 
@@ -20,7 +21,7 @@ const HeroSection = () => {
         <div className="inline-block items-center rounded-md border-[1px] border-blue-950">
           <Image
             className="h-16 w-auto rounded-md"
-            src={Caption as unknown as string}
+            src={whiteCaption as unknown as string}
             alt={"caption"}
           />
         </div>

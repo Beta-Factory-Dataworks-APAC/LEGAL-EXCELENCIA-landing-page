@@ -30,16 +30,17 @@ const Info = () => {
       </span>
       <div className="mt-10 p-4 flex flex-wrap max-md:flex-col justify-center items-center gap-8 text-slate-500 text-sm mx-auto md:items-start">
         <div className="flex flex-col md:w-1/5 w-full justify-start">
+          <h2 className="font-semibold">PANCHKULA office</h2>
+          <p>
+            SCF-5, SECTOR-2, PANCHKULA HARYANA 134109 <br /> 12-B, GH-39, M.D.C
+            SECTOR -5 PANCHKULA, HARYANA 134112
+          </p>
+        </div>
+        <div className="flex flex-col md:w-1/5 w-full justify-start">
           <h2 className="font-semibold">CHANDIGARH office</h2>
           <p>3065, BLOOD DONORS APARTMENTS, SECTOR 50 -D CHANDIGARH-160047</p>
         </div>
-        <div className="flex flex-col md:w-1/5 w-full justify-start">
-          <h2 className="font-semibold">MUMBAI office</h2>
-          <p>
-            306, VARDHMAN CHAMBERS, 17-G, CAWASJI PATEL STREET, FORT,
-            MUMBAI-400001
-          </p>
-        </div>
+
         <div className="flex flex-col md:w-1/5 w-full justify-start">
           <h2 className="font-semibold">DELHI office</h2>
           <p>
@@ -48,10 +49,10 @@ const Info = () => {
           </p>
         </div>
         <div className="flex flex-col md:w-1/5 w-full justify-start">
-          <h2 className="font-semibold">PANCHKULA office</h2>
+          <h2 className="font-semibold">MUMBAI office</h2>
           <p>
-            SCF-5, SECTOR-2, PANCHKULA HARYANA 134109 <br /> 12-B, GH-39, M.D.C
-            SECTOR -5 PANCHKULA, HARYANA 134112
+            306, VARDHMAN CHAMBERS, 17-G, CAWASJI PATEL STREET, FORT,
+            MUMBAI-400001
           </p>
         </div>
       </div>
