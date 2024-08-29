@@ -11,7 +11,6 @@ export const navItems = [
   { label: "About", href: "#about" },
   { label: "Team", href: "#team" },
   { label: "Services", href: "#law-services" },
-  { label: "Testimonials", href: "#testimonials" },
 ];
 
 export const color = {
