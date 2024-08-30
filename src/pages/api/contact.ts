@@ -19,7 +19,7 @@ export default async function handler(
   const messageData = {
     // from: "Excited User <mailgun@sandbox61dd62287e91418aae8d421864f8fc7a.mailgun.org>",
     from: `legal visitor <${email}>`,
-    to: "swapnilmkab@gmail.com", // Replace with your email
+    to: "legalexcelencia@gmail.com", // Replace with your email
     subject: `New visitor ${name} from Legal Excelencia`,
     html: `
     <html>
