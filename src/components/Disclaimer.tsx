@@ -43,13 +43,13 @@ const Disclaimer = () => {
             transmission, receipt or use of the information on our website does
             not tantamount to solicitation, advertisement, inducement or
             personal communication of any sort for and on behalf of the Firm so
-            as to create an attorney-client relationship.
-            <br /> The information provided herein should not be interpreted as
-            legal advice, for which the user must make independent inquiries.
-            Whilst every effort has been taken to ensure the accuracy of the
-            contents of this website, JusIP disclaims all liability arising from
-            reliance placed by the user or any other third party on the
-            information contained therein.
+            as to create an attorney-client relationship. <br /> The information
+            provided herein should not be interpreted as legal advice, for which
+            the user must make independent inquiries. Whilst every effort has
+            been taken to ensure the accuracy of the contents of this website,
+            Legal Excelencia disclaims all liability arising from reliance
+            placed by the user or any other third party on the information
+            contained therein.
           </p>
           <div className="flex flex-col lg:flex-row gap-2 mx-auto">
             <button

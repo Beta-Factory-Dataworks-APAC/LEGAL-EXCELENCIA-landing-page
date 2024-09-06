@@ -1,16 +1,16 @@
 // import { CheckCircle2 } from "lucide-react";
 // import { pricingOptions } from "../constants";
 
-import {
-  Building2,
-  Cctv,
-  Contact2,
-  Scale,
-  MailPlus,
-  ReceiptIndianRupee,
-  Swords,
-  Microscope,
-} from "lucide-react";
+// import {
+//   Building2,
+//   Cctv,
+//   Contact2,
+//   Scale,
+//   MailPlus,
+//   ReceiptIndianRupee,
+//   Swords,
+//   Microscope,
+// } from "lucide-react";
 
 const Services = () => {
   return (
@@ -22,6 +22,13 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="hidden max-md:flex xl:flex h-52 w-96 mb-3 rounded-2xl">
+                <img
+                  className="h-52 w-full rounded-lg object-cover"
+                  src="https://images.unsplash.com/photo-1573496130407-57329f01f769?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="corporate-law"
+                />
+              </div>
               <div className="flex items-start">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
@@ -62,6 +69,13 @@ const Services = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="hidden max-md:flex xl:flex h-52 w-96 mb-3 rounded-2xl">
+                <img
+                  className="h-52 w-full rounded-lg object-cover"
+                  src="https://plus.unsplash.com/premium_photo-1661317236301-a68cbbc645de?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="corporate-law"
+                />
+              </div>
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
@@ -110,6 +124,13 @@ const Services = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="hidden max-md:flex xl:flex h-52 w-96 mb-3 rounded-2xl">
+                <img
+                  className="h-52 w-full rounded-lg object-cover"
+                  src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ycG9yYXRlJTIwbGF3fGVufDB8fDB8fHwy"
+                  alt="alternative-dispute-resolution"
+                />
+              </div>
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
@@ -181,6 +202,13 @@ const Services = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="hidden max-md:flex xl:flex h-52 w-96 mb-3 rounded-2xl">
+                <img
+                  className="h-52 w-full rounded-lg object-cover"
+                  src="https://images.unsplash.com/photo-1521791055366-0d553872125f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvcnBvcmF0ZSUyMGxhd3xlbnwwfHwwfHx8Mg%3D%3D"
+                  alt="trademark"
+                />
+              </div>
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
@@ -230,6 +258,13 @@ const Services = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="hidden max-md:flex xl:flex h-52 w-96 mb-3 rounded-2xl">
+                <img
+                  className="h-52 w-full rounded-lg object-cover"
+                  src="https://plus.unsplash.com/premium_photo-1661328067451-6f323f1ed5d7?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="copyright"
+                />
+              </div>
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
@@ -272,6 +307,13 @@ const Services = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="hidden max-md:flex xl:flex h-52 w-96 mb-3 rounded-2xl">
+                <img
+                  className="h-52 w-full rounded-lg object-cover"
+                  src="https://plus.unsplash.com/premium_photo-1681823229808-5b83bbc6a922?q=80&w=1848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="patents"
+                />
+              </div>
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
@@ -315,6 +357,13 @@ const Services = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="hidden max-md:flex xl:flex h-52 w-96 mb-3 rounded-2xl">
+                <img
+                  className="h-52 w-full rounded-lg object-cover"
+                  src="https://plus.unsplash.com/premium_photo-1698084059560-9a53de7b816b?q=80&w=2011&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="industrial-designs"
+                />
+              </div>
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg
@@ -364,6 +413,13 @@ const Services = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-12 lg:mb-20">
+              <div className="hidden max-md:flex xl:flex h-52 w-96 mb-3 rounded-2xl">
+                <img
+                  className="h-52 w-full rounded-lg object-cover"
+                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvcHlyaWdodCUyMGxhd3xlbnwwfHwwfHx8MA%3D%3D"
+                  alt="heropics"
+                />
+              </div>
               <div className="flex">
                 <span className="flex-shrink-0 flex items-center justify-center w-12 h-12 mr-6 border rounded-full text-gray-500">
                   <svg

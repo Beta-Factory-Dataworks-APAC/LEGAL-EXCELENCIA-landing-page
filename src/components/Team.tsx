@@ -28,14 +28,14 @@ const Team = () => {
             <div className="flex flex-col h-auto w-80 m-auto">
               <p className="text-slate-500">{member.role}</p>
             </div>
-            <div className="mt-8 flex flex-wrap justify-center gap-6 text-slate-400">
+            {/* <div className="mt-8 flex flex-wrap justify-center gap-6 text-slate-400">
               <a href={`${member.linkedin_id}`} target="_blank">
                 {member.linkedin}
               </a>
               <a href={`${member.mail_id}`} target="_blank">
                 {member.email}
               </a>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
